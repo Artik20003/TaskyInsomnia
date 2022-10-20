@@ -1,7 +1,7 @@
 _id: req_fdeb724e94b541a6896f11c5a990e827
 type: Request
 parentId: fld_bb4459d396f447818187082051bc36bd
-modified: 1666296821239
+modified: 1666302356248
 created: 1666295036469
 url: "{{ _.BASE_URL }}event"
 name: Event
@@ -16,14 +16,14 @@ body:
         
         {
             "id": "{% response 'body', 'req_06ee4d5e4b38419da7040bfeef4f4f83', 'b64::JC5ldmVudHNbMF0uaWQ=::46b', 'never', 60 %}",
-            "title": "Event Title Updated",
+            "title": "Event Title Updated2",
             "description": "Event Updated",
             "from": {% customTimestamp 'add', '', '', '', '1', '', '', '', 'millis', '', '' %},
             "to": {% customTimestamp 'add', '', '', '', '2', '', '', '', 'millis', '', '' %},
             "remindAt": {% customTimestamp 'add', '', '', '', '', '30', '', '', 'millis', '', '' %},
-            "attendeeIds": ["63519c1f4dc1cc11afbd9556"],
-        		"deletedPhotoKeys": [{% response 'body', 'req_06ee4d5e4b38419da7040bfeef4f4f83', 'b64::JC5ldmVudHNbMF0ucGhvdG9zWzBdLmtleQ==::46b', 'never', 60 %}],
-          	"isGoing": "false" 
+            "attendeeIds": ["{% response 'body', 'req_06ee4d5e4b38419da7040bfeef4f4f83', 'b64::JC5ldmVudHNbMF0uaG9zdA==::46b', 'never', 60 %}"],
+        		"deletedPhotoKeys": [],
+          	"isGoing": false 
         }
 
 
