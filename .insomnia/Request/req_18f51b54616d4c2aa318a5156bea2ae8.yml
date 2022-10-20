@@ -1,0 +1,34 @@
+_id: req_18f51b54616d4c2aa318a5156bea2ae8
+type: Request
+parentId: fld_32af64641d1c407c93b3ba117cfa28a9
+modified: 1666292865734
+created: 1666283533168
+url: "{{ _.BASE_URL }}login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "{{ _.EMAIL }}",
+    	"password": "{{ _.PASSWORD }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_007d428e0c58494299d21154033c3ff0
+  - id: pair_80da05ad02a342b2af363c5f10c919c1
+    name: x-api-key
+    value: "{{ _.X_API_KEY }}"
+    description: ""
+authentication: {}
+metaSortKey: -1666195053700
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

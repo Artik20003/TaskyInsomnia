@@ -1,0 +1,35 @@
+_id: req_99cf72f91497441aa3bea9b3c1bf0d51
+type: Request
+parentId: fld_32af64641d1c407c93b3ba117cfa28a9
+modified: 1666292761355
+created: 1666195053650
+url: "{{ _.BASE_URL }}register"
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "fullName": "{{ _.FULL_NAME }}", 
+      "email": "{{ _.EMAIL }}", 
+      "password": "{{ _.PASSWORD }}" 
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_007d428e0c58494299d21154033c3ff0
+  - id: pair_80da05ad02a342b2af363c5f10c919c1
+    name: x-api-key
+    value: "{{ _.X_API_KEY }}"
+    description: ""
+authentication: {}
+metaSortKey: -1666195053750
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

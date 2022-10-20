@@ -1,0 +1,30 @@
+_id: req_b4717b8819274fe590d18ed4489028d7
+type: Request
+parentId: fld_bb4459d396f447818187082051bc36bd
+modified: 1666294999407
+created: 1666293970927
+url: "{{ _.BASE_URL }}event?eventId={% response 'body',
+  'req_06ee4d5e4b38419da7040bfeef4f4f83', 'b64::JC5ldmVudHNbMF0uaWQ=::46b',
+  'never', 60 %}"
+name: Event
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_706f56332d8a44c581e363abc23fccb2
+    name: x-api-key
+    value: "{{ _.X_API_KEY }}"
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_18f51b54616d4c2aa318a5156bea2ae8',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1666292071931.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

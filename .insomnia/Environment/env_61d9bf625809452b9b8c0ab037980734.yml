@@ -1,0 +1,24 @@
+_id: env_61d9bf625809452b9b8c0ab037980734
+type: Environment
+parentId: env_c13f745a65a7d84c9055d4197c911985021ef55c
+modified: 1666296820687
+created: 1666284011590
+name: Tasky
+data:
+  BASE_URL: https://tasky.pl-coding.com/
+  X_API_KEY: YOU_API_KEY
+  TIMEZONE: Europe/Berlin
+  FULL_NAME: Artem Duz
+  EMAIL: duz@gmail.com
+  PASSWORD: Qwerty1234
+dataPropertyOrder:
+  "&":
+    - BASE_URL
+    - X_API_KEY
+    - TIMEZONE
+    - FULL_NAME
+    - EMAIL
+    - PASSWORD
+color: null
+isPrivate: false
+metaSortKey: 1666284011590
